@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.splash.SplashFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHORT MINTS"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_medium"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/splash_image" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More knowledge in less time"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_medium"
+        android:textSize="16sp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+
+</LinearLayout>
